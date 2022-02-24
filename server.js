@@ -10,4 +10,4 @@ app.listen(process.env.PORT, (err) => {
 })
 
 const PostRoute = require('./Route/PostRoute');
-app.use('/posts', PostRoute)
+app.use('/', PostRoute)
